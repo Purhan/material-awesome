@@ -11,18 +11,18 @@ return {
     terminal = 'env x-terminal-emulator -e /usr/bin/env TERM=xterm-256color byobu',
     rofi = rofi_command,
     lock = 'i3lock-fancy',
-    quake = 'alacritty',
+    quake = 'konsole',
     screenshot = '~/.config/awesome/configuration/utils/screenshot -m',
     region_screenshot = '~/.config/awesome/configuration/utils/screenshot -r',
     delayed_screenshot = '~/.config/awesome/configuration/utils/screenshot --delayed -r',
     
     -- Editing these also edits the default program
     -- associated with each tag/workspace
-    browser = 'env vivaldi',
-    editor = 'code', -- gui text editor
+    browser = 'env firefox',
+    editor = 'gvim', -- gui text editor
     social = 'env discord',
     game = rofi_command,
-    files = 'nautilus',
+    files = 'thunar',
     music = rofi_command
   },
   -- List of apps to start once on start-up
