@@ -97,7 +97,7 @@ local TopPanel = function(s, offset)
     {
       ontop = true,
       screen = s,
-      height = dpi(32),
+      height = dpi(48),
       width = s.geometry.width - offsetx,
       x = s.geometry.x + offsetx,
       y = s.geometry.y,
@@ -105,14 +105,14 @@ local TopPanel = function(s, offset)
       bg = beautiful.background.hue_800,
       fg = beautiful.fg_normal,
       struts = {
-        top = dpi(32)
+        top = dpi(48)
       }
     }
   )
 
   panel:struts(
     {
-      top = dpi(32)
+      top = dpi(48)
     }
   )
 

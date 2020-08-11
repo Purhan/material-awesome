@@ -87,7 +87,7 @@ local awesome_overrides =
   theme.tasklist_bg_normal = theme.background.hue_800
   theme.tasklist_bg_focus =
     'linear:0,0:0,' ..
-    dpi(32) ..
+    dpi(48) ..
       ':0,' ..
         theme.background.hue_800 ..
           ':0.95,' .. theme.background.hue_800 .. ':0.95,' .. theme.fg_normal .. ':1,' .. theme.fg_normal
