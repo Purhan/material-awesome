@@ -10,16 +10,17 @@ theme.font = 'Roboto medium 10'
 -- Colors Pallets
 
 -- Primary
-theme.primary = mat_colors.indigo
-theme.primary.hue_500 = '#003f6b'
+theme.primary = mat_colors.grey
+theme.primary.hue_500 = '#d03c3f'
+-- theme.primary = mat_colors.indigo
 -- Accent
 theme.accent = mat_colors.pink
 
 -- Background
 theme.background = mat_colors.blue_grey
 
-theme.background.hue_800 = '#192933'
-theme.background.hue_900 = '#121e25'
+theme.background.hue_800 = '#2e2e2e'
+theme.background.hue_900 = '#1a1a1a'
 
 local awesome_overrides = function(theme)
   --
