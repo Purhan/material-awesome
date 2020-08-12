@@ -26,7 +26,7 @@ awful.rules.rules = {
     }
   },
   {
-    rule_any = {name = {'QuakeTerminal'}},
+    rule_any = {name = {'Konsole'}},
     properties = {skip_decoration = true}
   },
   -- Titlebars
