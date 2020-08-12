@@ -1,3 +1,4 @@
+local awful = require('awful')
 local spawn = require('awful.spawn')
 local app = require('configuration.apps').default.quake
 
@@ -29,6 +30,9 @@ toggle_quake = function()
   else
     if opened then
       open_quake()
+      client.focus = quake_client
+      quake_client:raise()
+--       awful.client.focus(quake_id)
     else
       close_quake()
     end

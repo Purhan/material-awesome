@@ -22,7 +22,7 @@ return {
     editor = 'gvim', -- gui text editor
     social = 'env discord',
     game = rofi_command,
-    files = 'thunar',
+    files = 'dolphin',
     music = rofi_command
   },
   -- List of apps to start once on start-up
